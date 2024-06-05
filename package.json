@@ -1,4 +1,15 @@
 {
   "name": "cognito-ts",
-  "packageManager": "yarn@4.1.1"
+  "scripts": {
+    "start": "node -r ts-node/register --env-file=.env src/main.ts"
+  },
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity-provider": "^3.590.0"
+  }
 }
