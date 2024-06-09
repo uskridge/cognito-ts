@@ -4,3 +4,7 @@
 % yarn
 % yarn init
 ```
+
+```
+% yarn start (signup|confirm|signin)
+```
